@@ -3,12 +3,14 @@ package stage.ifm.ebankservice;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import stage.ifm.ebankservice.entities.BankAccount;
 import stage.ifm.ebankservice.repository.BankAccountRepository;
 import stage.ifm.ebankservice.services.EbankService;
 
 @SpringBootApplication
+@EnableFeignClients
 public class EbankServiceApplication {
 
     public static void main(String[] args) {

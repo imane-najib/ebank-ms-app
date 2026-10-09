@@ -3,6 +3,7 @@ package stage.ifm.ebankservice.services;
 import org.springframework.stereotype.Service;
 import stage.ifm.ebankservice.entities.BankAccount;
 import stage.ifm.ebankservice.feign.CustomerRestClient;
+import stage.ifm.ebankservice.model.Customer;
 import stage.ifm.ebankservice.repository.BankAccountRepository;
 
 import java.util.Date;
@@ -30,8 +31,14 @@ public class EbankService {
     }
 
     public BankAccount save(BankAccount bankAccount) {
-        bankAccount.setId(UUID.randomUUID().toString());
-        bankAccount.setCreateAt(new Date());
-        return bankAccountRepository.save(bankAccount);
+        try {
+            Customer customer = customerRestClient.getCustomerById(bankAccount.getCustomerId());
+            bankAccount.setId(UUID.randomUUID().toString());
+            bankAccount.setCreateAt(new Date());
+            return bankAccountRepository.save(bankAccount);
+        }catch (Exception e){
+            throw new RuntimeException(e.getMessage());
+        }
+
     }
 }
