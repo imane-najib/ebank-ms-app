@@ -14,7 +14,8 @@
 
 ## Gateway Service
 ### Configuration Statique
-<img width="989" height="499" alt="image" src="https://github.com/user-attachments/assets/2ee53f34-1961-4efd-8ca5-d46ef1f4f090" />
+<img width="799" height="469" alt="image" src="https://github.com/user-attachments/assets/5998443a-6a72-4f68-b1c9-9a2a92c769d7" />
+
 
 
 
