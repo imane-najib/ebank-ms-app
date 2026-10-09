@@ -26,7 +26,7 @@ public class CustomerServiceApplication {
 
             names.forEach(name->{
                 customerService.saveCustomer(Customer.builder()
-                                .Name(name).Email(name + "@gmail.com")
+                                .name(name).email(name + "@gmail.com")
                         .build());
             });
         };

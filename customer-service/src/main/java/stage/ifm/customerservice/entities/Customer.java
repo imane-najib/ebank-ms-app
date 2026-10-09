@@ -14,6 +14,6 @@ import lombok.NoArgsConstructor;
 public class Customer {
     @Id @GeneratedValue
     private Long id;
-    private String Name;
-    private String Email;
+    private String name;
+    private String email;
 }
