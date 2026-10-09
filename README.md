@@ -8,6 +8,8 @@
 <img width="1600" height="683" alt="image" src="https://github.com/user-attachments/assets/a14a1288-8f01-4038-b053-5cc34a6c14c8" />
 
 ## Service bankAccount
+<img width="871" height="732" alt="image" src="https://github.com/user-attachments/assets/e83b4e09-8899-44c6-9078-cb809c8eeae5" />
+### Swagger
 <img width="1600" height="747" alt="image" src="https://github.com/user-attachments/assets/9884ce12-52e4-4049-ba93-79c7abdc68b3" />
 
 
