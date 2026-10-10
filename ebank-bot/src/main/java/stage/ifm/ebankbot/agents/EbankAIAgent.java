@@ -4,6 +4,7 @@ import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.openai.OpenAiChatOptions;
+import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,10 +15,18 @@ import java.util.Map;
 public class EbankAIAgent {
     private ChatClient chatClient;
 
-    public EbankAIAgent(ChatClient.Builder chatClient, ChatMemory chatMemory) {
+    public EbankAIAgent(ChatClient.Builder chatClient,
+                        ChatMemory chatMemory,
+                        ToolCallbackProvider toolCallbackProvider) {
         this.chatClient =
                 chatClient
+                        .defaultSystem("""
+                        Vous êtes un assistant qui se charge de répondre aux questions
+                        de l'utilisateur à propos des clients et des comptes bancaires, en fonction du contexte
+                        Si aucun contexte n'est fourni, répond avec JE NE SAIS PAS
+                        """)
                         .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())
+                        .defaultTools(toolCallbackProvider)
                         .build();
     }
     public String chat(String query){

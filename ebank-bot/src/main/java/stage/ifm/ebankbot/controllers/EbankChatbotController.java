@@ -4,6 +4,8 @@ import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.openai.OpenAiChatOptions;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import stage.ifm.ebankbot.agents.EbankAIAgent;
 
@@ -17,8 +19,8 @@ public class EbankChatbotController {
         this.ebankAIAgent = ebankAIAgent;
     }
 
-
-    public String chat(String query){
+    @GetMapping("/chat")
+    public String chat(@RequestParam(name="query", defaultValue="Bonjour") String query){
         return ebankAIAgent.chat(query);
     }
 }
