@@ -16,6 +16,46 @@
 ### Configuration Statique
 <img width="799" height="469" alt="image" src="https://github.com/user-attachments/assets/5998443a-6a72-4f68-b1c9-9a2a92c769d7" />
 
+### Configuration Dynamique
+<img width="1501" height="148" alt="image" src="https://github.com/user-attachments/assets/ba8a8f74-f862-40bd-abd5-b7c4838cc63a" />
+
+### Le test 
+<img width="789" height="563" alt="image" src="https://github.com/user-attachments/assets/168aba84-03e1-46fa-8526-02ca5fcd1240" />
+<img width="1024" height="605" alt="image" src="https://github.com/user-attachments/assets/bacc4f52-931e-41ea-b708-54a36d4cb258" />
+<img width="1091" height="786" alt="image" src="https://github.com/user-attachments/assets/9a105499-77db-41ba-8b15-714b18e528a7" />
+<img width="1172" height="834" alt="image" src="https://github.com/user-attachments/assets/9a98d562-99f5-422e-9045-0e675d3eae5d" />
+
+## Discovery Service 
+<img width="1903" height="916" alt="image" src="https://github.com/user-attachments/assets/ad879fb4-9ea0-4bae-84da-ee33680cbfb4" />
+
+## Utilisation d'Open Feign 
+<img width="900" height="316" alt="image" src="https://github.com/user-attachments/assets/bc066624-2f0b-4cf0-bb01-48e6212a39f7" />
+
+### Le test 
+<img width="1057" height="536" alt="image" src="https://github.com/user-attachments/assets/84ab68cf-5d4f-4cf9-84e1-13931ca5ffd7" />
+
+## La tolerance aux pannes
+<img width="982" height="332" alt="image" src="https://github.com/user-attachments/assets/33576d47-a766-4fc5-ad55-bfdb188286b9" />
+
+## Ebank ChatBot Service 
+### Le premier test LLM 
+<img width="1920" height="709" alt="image" src="https://github.com/user-attachments/assets/b4792e37-396a-465e-87f9-f03ceeee5e2c" />
+<img width="1916" height="932" alt="image" src="https://github.com/user-attachments/assets/3c60c113-ef82-4fc9-af4f-dc0d47706b69" />
+
+### Ajouter la memoire
+<img width="1859" height="787" alt="image" src="https://github.com/user-attachments/assets/5f76b28e-e48c-4445-a6cb-c0d8f8c19594" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
