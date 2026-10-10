@@ -45,6 +45,15 @@
 ### Ajouter la memoire
 <img width="1859" height="787" alt="image" src="https://github.com/user-attachments/assets/5f76b28e-e48c-4445-a6cb-c0d8f8c19594" />
 
+### La liste des clients 
+<img width="1771" height="861" alt="image" src="https://github.com/user-attachments/assets/35e5c8c1-be99-452e-8adf-3d2f8386fc4d" />
+
+### Limiter le champs d'application du chatbot
+<img width="1165" height="296" alt="image" src="https://github.com/user-attachments/assets/b2382ad7-9e82-4367-9066-4ae211e9bc86" />
+#### Le test 
+<img width="1758" height="816" alt="image" src="https://github.com/user-attachments/assets/d5cc7ac2-5163-4607-a207-ae5d2fde0fe9" />
+
+
 
 
 
