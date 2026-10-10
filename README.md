@@ -50,8 +50,17 @@
 
 ### Limiter le champs d'application du chatbot
 <img width="1165" height="296" alt="image" src="https://github.com/user-attachments/assets/b2382ad7-9e82-4367-9066-4ae211e9bc86" />
+
 #### Le test 
 <img width="1758" height="816" alt="image" src="https://github.com/user-attachments/assets/d5cc7ac2-5163-4607-a207-ae5d2fde0fe9" />
+
+#### Test avec discord
+<img width="1018" height="393" alt="image" src="https://github.com/user-attachments/assets/f89052b2-a667-4416-bc23-0d11480566d5" />
+
+#### Test avec Telegram
+<img width="1090" height="868" alt="image" src="https://github.com/user-attachments/assets/7942db4b-5dea-40e5-b986-c8726f29be08" />
+
+
 
 
 
