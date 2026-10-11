@@ -62,6 +62,8 @@
 
 ## Front end Angular
 <img width="1897" height="867" alt="image" src="https://github.com/user-attachments/assets/315b21ea-71f6-468b-b7f7-f525a8affcea" />
+<img width="1905" height="915" alt="image" src="https://github.com/user-attachments/assets/aa507df8-a498-4c00-bab6-626d30b04379" />
+
 
 
 
