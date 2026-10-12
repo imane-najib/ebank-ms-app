@@ -66,8 +66,20 @@
 ## Faire les tests avec OpenAI
 ### premier test 
 <img width="1920" height="701" alt="image" src="https://github.com/user-attachments/assets/3de67c98-1e85-4b81-92a6-8fff812628cf" />
+
 ### Liste des clients sous forme de tableau
 <img width="1912" height="970" alt="image" src="https://github.com/user-attachments/assets/2f787264-7c51-4715-ab86-c730662650ab" />
+
+### L'ajout un client
+<img width="1874" height="832" alt="image" src="https://github.com/user-attachments/assets/cd83de9e-0ba3-47b9-8a8f-7e10f1118b4c" />
+<img width="1248" height="863" alt="image" src="https://github.com/user-attachments/assets/85e88cd5-aab6-4d4f-a4b9-99b9ae886f44" />
+
+### Liste des comptes bancaires avec clientId 1
+<img width="1838" height="911" alt="image" src="https://github.com/user-attachments/assets/e16aeed5-a1ce-42c7-a5c1-fc921c19f878" />
+
+
+
+
 
 ## Front end Angular
 <img width="1897" height="867" alt="image" src="https://github.com/user-attachments/assets/315b21ea-71f6-468b-b7f7-f525a8affcea" />
