@@ -66,7 +66,8 @@
 ## Faire les tests avec OpenAI
 ### premier test 
 <img width="1920" height="701" alt="image" src="https://github.com/user-attachments/assets/3de67c98-1e85-4b81-92a6-8fff812628cf" />
-
+### Liste des clients sous forme de tableau
+<img width="1912" height="970" alt="image" src="https://github.com/user-attachments/assets/2f787264-7c51-4715-ab86-c730662650ab" />
 
 ## Front end Angular
 <img width="1897" height="867" alt="image" src="https://github.com/user-attachments/assets/315b21ea-71f6-468b-b7f7-f525a8affcea" />
