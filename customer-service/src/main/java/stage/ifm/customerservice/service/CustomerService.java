@@ -25,8 +25,20 @@ public class CustomerService {
     public Customer findCustomerById(@McpToolParam(description = "The customer id") Long id){
         return customerRepository.findById(id).orElseThrow(()->new RuntimeException("Customer not found!"));
     }
-    @McpTool(description = "Save a new customer")
-    public Customer saveCustomer(@McpToolParam(description = "The Customer to save(name,email)") Customer customer){
-        return customerRepository.save(customer);
-    }
+//    @McpTool(description = "Save a new customer")
+//    public Customer saveCustomer(@McpToolParam(description = "The Customer to save(name,email)") Customer customer){
+//        return customerRepository.save(customer);
+//    }
+@McpTool(description = "Save a new customer")
+public Customer saveCustomer(
+        @McpToolParam(description = "Customer name") String name,
+        @McpToolParam(description = "Customer email") String email) {
+
+    Customer customer = Customer.builder()
+            .name(name)
+            .email(email)
+            .build();
+
+    return customerRepository.save(customer);
+}
 }

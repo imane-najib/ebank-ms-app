@@ -25,9 +25,7 @@ public class CustomerServiceApplication {
             List<String> names = List.of("Mohammed","Imane","Yassine");
 
             names.forEach(name->{
-                customerService.saveCustomer(Customer.builder()
-                                .name(name).email(name + "@gmail.com")
-                        .build());
+                customerService.saveCustomer( name,name+"@gmail.com");
             });
         };
     }

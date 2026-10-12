@@ -38,6 +38,9 @@ public class EbankAIAgent {
     }
     public String chatOpenai(String query){
         return chatClient.prompt(query)
+                .advisors(advisor -> advisor.param(
+                        ChatMemory.CONVERSATION_ID, "conversation-1"
+                ))
                 .call().content();
     }
     public Flux<String> chatStreamQroq(String query){
