@@ -12,11 +12,18 @@ public class DiscordBot {
     public DiscordBot(EbankAIAgent ebankAiAgent) {
         this.ebankAiAgent = ebankAiAgent;
     }
-    @DiscordMapping
-    private void perform(MessageReceivedEvent event) {
-        if (event.getAuthor().isBot()) return;
-        String query = event.getMessage().getContentRaw();
-        String response = ebankAiAgent.chat(query);
-        event.getChannel().sendMessage(response).queue();
-    }
+//    @DiscordMapping
+//    private void perform(MessageReceivedEvent event) {
+//        if (event.getAuthor().isBot()) return;
+//        String query = event.getMessage().getContentRaw();
+//        String response = ebankAiAgent.chatQroq(query);
+//        event.getChannel().sendMessage(response).queue();
+//    }
+@DiscordMapping
+private void perform(MessageReceivedEvent event) {
+    if (event.getAuthor().isBot()) return;
+    String query = event.getMessage().getContentRaw();
+    String response = ebankAiAgent.chatOpenai(query);
+    event.getChannel().sendMessage(response).queue();
+}
 }

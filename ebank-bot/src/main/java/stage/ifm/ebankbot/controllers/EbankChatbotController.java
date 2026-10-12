@@ -23,11 +23,20 @@ public class EbankChatbotController {
 
     @GetMapping(value = "/chat",produces = MediaType.TEXT_PLAIN_VALUE)
     public String chat(@RequestParam(name="query", defaultValue="Bonjour") String query){
-        return ebankAIAgent.chat(query);
+        return ebankAIAgent.chatGroq(query);
     }
 
     @GetMapping(value = "/chatStream",produces = MediaType.TEXT_PLAIN_VALUE)
     public Flux<String> chatStream(@RequestParam(name="query", defaultValue="Bonjour") String query){
-        return ebankAIAgent.chatStream(query);
+        return ebankAIAgent.chatStreamQroq(query);
+    }
+    @GetMapping(value = "/chatOpen",produces = MediaType.TEXT_PLAIN_VALUE)
+    public String chatOpen(@RequestParam(name="query", defaultValue="Bonjour") String query){
+        return ebankAIAgent.chatOpenai(query);
+    }
+
+    @GetMapping(value = "/chatStreamOpen",produces = MediaType.TEXT_PLAIN_VALUE)
+    public Flux<String> chatStreamOpen(@RequestParam(name="query", defaultValue="Bonjour") String query){
+        return ebankAIAgent.chatStreamOpenai(query);
     }
 }

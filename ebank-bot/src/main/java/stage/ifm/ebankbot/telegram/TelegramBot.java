@@ -45,24 +45,42 @@ public class TelegramBot extends TelegramLongPollingBot {
         }
     }
 
-    @Override
-    public void onUpdateReceived(Update update) {
-        try {
-            if (!update.hasMessage() || !update.getMessage().hasText()) return;
+//    @Override
+//    public void onUpdateReceived(Update update) {
+//        try {
+//            if (!update.hasMessage() || !update.getMessage().hasText()) return;
+//
+//            String messageText = update.getMessage().getText();
+//            Long chatId = update.getMessage().getChatId();
+//
+//            sendTyping(chatId);
+//
+//            String answer = aiAgent.chatQroq(messageText);
+//
+//            sendText(chatId, answer);
+//
+//        } catch (Exception e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
+@Override
+public void onUpdateReceived(Update update) {
+    try {
+        if (!update.hasMessage() || !update.getMessage().hasText()) return;
 
-            String messageText = update.getMessage().getText();
-            Long chatId = update.getMessage().getChatId();
+        String messageText = update.getMessage().getText();
+        Long chatId = update.getMessage().getChatId();
 
-            sendTyping(chatId);
+        sendTyping(chatId);
 
-            String answer = aiAgent.chat(messageText);
+        String answer = aiAgent.chatOpenai(messageText);
 
-            sendText(chatId, answer);
+        sendText(chatId, answer);
 
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+    } catch (Exception e) {
+        throw new RuntimeException(e);
     }
+}
 
     private void sendTyping(Long chatId) {
         SendChatAction action = new SendChatAction();
