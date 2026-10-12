@@ -24,14 +24,14 @@ export class BotUi {
 
   protected askAgent() {
     this.response$ = this.http.get(
-      "http://localhost:9999/EBANK-BOT/chat?query=" + this.query,
+      "http://localhost:9999/EBANK-BOT/chatOpen?query=" + this.query,
       {responseType: 'text'}
     );
   }
 
   protected askAgentStream() {
     this.response$ = this.http.get(
-      "http://localhost:9999/EBANK-BOT/chatStream?query=" + this.query,
+      "http://localhost:9999/EBANK-BOT/chatStreamOpen?query=" + this.query,
       {responseType: 'text', observe: 'events',reportProgress: true})
       .pipe(map(event => {
         switch (event.type) {
