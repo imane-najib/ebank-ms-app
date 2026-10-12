@@ -59,13 +59,17 @@
 
 #### Test avec discord
 <img width="1018" height="393" alt="image" src="https://github.com/user-attachments/assets/f89052b2-a667-4416-bc23-0d11480566d5" />
+<img width="1450" height="782" alt="image" src="https://github.com/user-attachments/assets/c01384ec-e742-4d39-8fe3-0f7789bc9c85" />
+<img width="1437" height="856" alt="image" src="https://github.com/user-attachments/assets/f04e67e8-5fce-499e-ad8c-30baa92ea276" />
+<img width="1081" height="246" alt="image" src="https://github.com/user-attachments/assets/a3c7d584-5846-44e9-8ffe-0d72e8f668ad" />
+
+##### Voici le compte est ajouté 
+<img width="990" height="546" alt="image" src="https://github.com/user-attachments/assets/5e530102-4aad-412b-a438-bf2364fa99ea" />
 
 #### Test avec Telegram
 <img width="1090" height="868" alt="image" src="https://github.com/user-attachments/assets/7942db4b-5dea-40e5-b986-c8726f29be08" />
 <img width="1016" height="223" alt="image" src="https://github.com/user-attachments/assets/9aac6ae2-97a2-43f2-a3e0-629120c78a9a" />
 <img width="1083" height="711" alt="image" src="https://github.com/user-attachments/assets/fac1b571-14ac-410b-8abe-ab308722e5b8" />
-
-
 
 ## Faire les tests avec OpenAI
 ### premier test 
