@@ -62,6 +62,10 @@
 
 #### Test avec Telegram
 <img width="1090" height="868" alt="image" src="https://github.com/user-attachments/assets/7942db4b-5dea-40e5-b986-c8726f29be08" />
+<img width="1016" height="223" alt="image" src="https://github.com/user-attachments/assets/9aac6ae2-97a2-43f2-a3e0-629120c78a9a" />
+<img width="1083" height="711" alt="image" src="https://github.com/user-attachments/assets/fac1b571-14ac-410b-8abe-ab308722e5b8" />
+
+
 
 ## Faire les tests avec OpenAI
 ### premier test 
