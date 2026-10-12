@@ -1,5 +1,5 @@
 # ebank-ms-app
-
+# PARTIE 1
 ## Service Customer
 <img width="1306" height="669" alt="image" src="https://github.com/user-attachments/assets/ae368745-f4d6-4e4f-988b-76fd4b957e4e" />
 <img width="874" height="437" alt="image" src="https://github.com/user-attachments/assets/21252c11-05a6-49e1-bccc-8a97e5728855" />
@@ -9,6 +9,7 @@
 
 ## Service bankAccount
 <img width="871" height="732" alt="image" src="https://github.com/user-attachments/assets/e83b4e09-8899-44c6-9078-cb809c8eeae5" />
+
 ### Swagger
 <img width="1600" height="747" alt="image" src="https://github.com/user-attachments/assets/9884ce12-52e4-4049-ba93-79c7abdc68b3" />
 
@@ -37,7 +38,9 @@
 ## La tolerance aux pannes
 <img width="982" height="332" alt="image" src="https://github.com/user-attachments/assets/33576d47-a766-4fc5-ad55-bfdb188286b9" />
 
+# PARTIE 2
 ## Ebank ChatBot Service 
+## Utilisation de groq comme LLM
 ### Le premier test LLM 
 <img width="1920" height="709" alt="image" src="https://github.com/user-attachments/assets/b4792e37-396a-465e-87f9-f03ceeee5e2c" />
 <img width="1916" height="932" alt="image" src="https://github.com/user-attachments/assets/3c60c113-ef82-4fc9-af4f-dc0d47706b69" />
@@ -59,6 +62,11 @@
 
 #### Test avec Telegram
 <img width="1090" height="868" alt="image" src="https://github.com/user-attachments/assets/7942db4b-5dea-40e5-b986-c8726f29be08" />
+
+## Faire les tests avec OpenAI
+### premier test 
+<img width="1920" height="701" alt="image" src="https://github.com/user-attachments/assets/3de67c98-1e85-4b81-92a6-8fff812628cf" />
+
 
 ## Front end Angular
 <img width="1897" height="867" alt="image" src="https://github.com/user-attachments/assets/315b21ea-71f6-468b-b7f7-f525a8affcea" />
